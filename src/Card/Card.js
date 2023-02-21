@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css'
 
-const Card = () => {
+const Card = ({}) => {
   return (
     <div className='card-container'>  
       <h2 className='font-large'>Name:</h2>
@@ -11,6 +11,7 @@ const Card = () => {
       <button className='cancel-button'>Cancel</button>
     </div>
   )
+
 }
 
 
