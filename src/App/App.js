@@ -11,6 +11,12 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+    return getReservations()
+      .then(data => this.setState({ reservations: data }))
+    
+  }
+
 
 
   render() {
@@ -21,7 +27,7 @@ class App extends Component {
 
         </div>
         <div className='resy-container'>
-          <Card />
+          <Card reservation={this.state.reservations}/>
         </div>
       </div>
     )
