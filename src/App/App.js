@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import getReservations from '../apiCalls';
+import Card from '../Card/Card.js';
 
 class App extends Component {
   constructor() {
@@ -20,7 +21,7 @@ class App extends Component {
 
         </div>
         <div className='resy-container'>
-          
+          <Card />
         </div>
       </div>
     )
