@@ -1,4 +1,28 @@
-h2{
-  color:white;
-  font: 50px;
+.card-container {
+  background: white;
+  border: solid 3px teal;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 30vw;
+}
+
+.font-large {
+  color: teal;
+  font: 18px;
+}
+
+.font-med {
+  color: teal;
+  font: 16px;
+}
+
+.cancel-button {
+  background-color: teal;
+  border: none;
+  color: white;
+  height: 5vh;
+  margin-left: 19%;
+  width: 18vw;
 }
