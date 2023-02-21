@@ -23,6 +23,11 @@
   border: none;
   color: white;
   height: 5vh;
-  margin-left: 15%;
-  width: 15vw;
+  margin-left: 22%;
+  width: 13vw;
+}
+
+.cancel-button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
 }
