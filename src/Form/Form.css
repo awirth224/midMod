@@ -1,0 +1,17 @@
+.inputs-container {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+input {
+  height: 4vh;
+  margin: 0% 2% 0% 2%;
+  width: 18vw;
+}
+
+.reservation-button {
+  background-color: teal;
+  border: none;
+  color: white;
+  width: 15vw;
+}
