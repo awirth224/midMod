@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import getReservations from '../apiCalls';
+import Container from '../Container/Container';
 import Card from '../Card/Card.js';
 
 class App extends Component {
@@ -14,10 +15,7 @@ class App extends Component {
   componentDidMount() {
     return getReservations()
       .then(data => this.setState({ reservations: data }))
-    
   }
-
-
 
   render() {
     return (
@@ -27,7 +25,7 @@ class App extends Component {
 
         </div>
         <div className='resy-container'>
-          <Card reservation={this.state.reservations}/>
+          <Container reservations={this.state.reservations}/>
         </div>
       </div>
     )
